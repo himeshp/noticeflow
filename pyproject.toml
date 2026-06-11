@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noticeflow"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=1.0.0",
+    "google-cloud-aiplatform>=1.60.0",
+    "google-cloud-discoveryengine>=0.11.0",
+    "pydantic>=2.7.0",
+    "mcp>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.29.0",
+    "reportlab>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+# Optional A2A discoverability surface (#2.5). Kept out of core deps so the
+# deployed Agent Engine wheel is unaffected. Pinned to ADK 2.x's own a2a range.
+# Install with:  pip install -e ".[a2a]"
+a2a = [
+    "a2a-sdk>=0.3.4,<0.4",
+]
+# Build-time only: the offline section->page index builder (scripts/build_pdf_index.py).
+# NOT a runtime dependency — the runtime reads the committed data/source_pdf_index.json.
+tools = [
+    "pypdf>=4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Ship the mock ERP JSON data inside the package so it is available in the
+# Agent Engine runtime (the MCP server reads it at request time).
+"noticeflow.mcp" = ["erp_data/*.json"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

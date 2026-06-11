@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#5f6368"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#5f6368"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="760" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="700" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#202124">NoticeFlow — Architecture</text>
+  <text x="700" y="80" text-anchor="middle" font-size="16" fill="#5f6368">Autonomous multi-agent system: GST notice to filing-ready response packet</text>
+
+  <!-- Input -->
+  <rect x="24" y="285" width="176" height="110" rx="12" fill="#f1f3f4" stroke="#9aa0a6" stroke-width="1.5"/>
+  <text x="112" y="328" text-anchor="middle" font-size="17" font-weight="700" fill="#202124">GST Notice</text>
+  <text x="112" y="352" text-anchor="middle" font-size="13" fill="#5f6368">PDF / text in</text>
+  <text x="112" y="374" text-anchor="middle" font-size="13" fill="#5f6368">(ASMT-10 · DRC-01 ·</text>
+  <text x="112" y="390" text-anchor="middle" font-size="13" fill="#5f6368">ITC-mismatch)</text>
+
+  <!-- Orchestrator band -->
+  <rect x="232" y="150" width="720" height="410" rx="16" fill="#eaf1fe" stroke="#4285f4" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="592" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#1a73e8">ADK SequentialAgent · Orchestrator</text>
+  <text x="592" y="202" text-anchor="middle" font-size="13" fill="#5f6368">typed state passed agent to agent</text>
+
+  <!-- Classifier card -->
+  <rect x="256" y="250" width="210" height="190" rx="10" fill="#ffffff" stroke="#4285f4" stroke-width="1.5"/>
+  <rect x="256" y="250" width="210" height="34" rx="10" fill="#4285f4"/>
+  <rect x="256" y="270" width="210" height="14" fill="#4285f4"/>
+  <text x="361" y="273" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Classifier</text>
+  <text x="361" y="312" text-anchor="middle" font-size="13" fill="#202124">LlmAgent</text>
+  <text x="361" y="334" text-anchor="middle" font-size="13" font-weight="600" fill="#1a73e8">Gemini 2.5 Flash</text>
+  <text x="361" y="362" text-anchor="middle" font-size="12" fill="#5f6368">output_schema (Pydantic)</text>
+  <text x="361" y="392" text-anchor="middle" font-size="12" fill="#5f6368">extracts: type, sections,</text>
+  <text x="361" y="408" text-anchor="middle" font-size="12" fill="#5f6368">GSTIN, period, deadline</text>
+  <text x="361" y="430" text-anchor="middle" font-size="12" font-style="italic" fill="#80868b">yields ClassifiedNotice</text>
+
+  <!-- Researcher card -->
+  <rect x="490" y="250" width="210" height="190" rx="10" fill="#ffffff" stroke="#34a853" stroke-width="1.5"/>
+  <rect x="490" y="250" width="210" height="34" rx="10" fill="#34a853"/>
+  <rect x="490" y="270" width="210" height="14" fill="#34a853"/>
+  <text x="595" y="273" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Researcher</text>
+  <text x="595" y="312" text-anchor="middle" font-size="13" fill="#202124">LlmAgent</text>
+  <text x="595" y="334" text-anchor="middle" font-size="13" font-weight="600" fill="#188038">Gemini 2.5 Flash</text>
+  <text x="595" y="362" text-anchor="middle" font-size="12" fill="#5f6368">VertexAiSearchTool</text>
+  <text x="595" y="392" text-anchor="middle" font-size="12" fill="#5f6368">retrieves attributed</text>
+  <text x="595" y="408" text-anchor="middle" font-size="12" fill="#5f6368">GST-law citations</text>
+  <text x="595" y="430" text-anchor="middle" font-size="12" font-style="italic" fill="#80868b">yields LegalContext</text>
+
+  <!-- Drafter card -->
+  <rect x="724" y="250" width="210" height="190" rx="10" fill="#ffffff" stroke="#f9ab00" stroke-width="1.5"/>
+  <rect x="724" y="250" width="210" height="34" rx="10" fill="#f9ab00"/>
+  <rect x="724" y="270" width="210" height="14" fill="#f9ab00"/>
+  <text x="829" y="273" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Drafter</text>
+  <text x="829" y="312" text-anchor="middle" font-size="13" fill="#202124">LlmAgent</text>
+  <text x="829" y="334" text-anchor="middle" font-size="13" font-weight="600" fill="#e37400">Gemini 2.5 Pro</text>
+  <text x="829" y="362" text-anchor="middle" font-size="12" fill="#5f6368">MCPToolset</text>
+  <text x="829" y="392" text-anchor="middle" font-size="12" fill="#5f6368">composes cited reply +</text>
+  <text x="829" y="408" text-anchor="middle" font-size="12" fill="#5f6368">reconciliation annexure</text>
+  <text x="829" y="430" text-anchor="middle" font-size="12" font-style="italic" fill="#80868b">yields ResponsePacket</text>
+
+  <!-- Vertex AI Search datastore -->
+  <rect x="490" y="600" width="210" height="120" rx="10" fill="#e6f4ea" stroke="#34a853" stroke-width="1.5"/>
+  <text x="595" y="628" text-anchor="middle" font-size="15" font-weight="700" fill="#188038">Vertex AI Search</text>
+  <text x="595" y="648" text-anchor="middle" font-size="12" fill="#5f6368">(Discovery Engine, RAG)</text>
+  <text x="595" y="674" text-anchor="middle" font-size="12" fill="#202124">Real CBIC GST-law corpus:</text>
+  <text x="595" y="692" text-anchor="middle" font-size="12" fill="#5f6368">CGST Act · CGST Rules ·</text>
+  <text x="595" y="708" text-anchor="middle" font-size="12" fill="#5f6368">Circulars 31 / 135 / 183</text>
+
+  <!-- MCP ERP server -->
+  <rect x="724" y="600" width="210" height="120" rx="10" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.5"/>
+  <text x="829" y="628" text-anchor="middle" font-size="15" font-weight="700" fill="#e37400">MCP Server (FastMCP)</text>
+  <text x="829" y="648" text-anchor="middle" font-size="12" fill="#5f6368">external tool connection</text>
+  <text x="829" y="674" text-anchor="middle" font-size="12" font-weight="600" fill="#202124">get_reconciliation_data</text>
+  <text x="829" y="692" text-anchor="middle" font-size="12" fill="#5f6368">(gstin, tax_period)</text>
+  <text x="829" y="708" text-anchor="middle" font-size="12" fill="#5f6368">mock ERP — GSTR-3B vs 2B</text>
+
+  <!-- Human Gate -->
+  <rect x="984" y="280" width="172" height="130" rx="10" fill="#fce8e6" stroke="#ea4335" stroke-width="1.5"/>
+  <text x="1070" y="318" text-anchor="middle" font-size="16" font-weight="700" fill="#c5221f">Human Gate</text>
+  <text x="1070" y="344" text-anchor="middle" font-size="12" fill="#5f6368">review · approve · edit</text>
+  <text x="1070" y="372" text-anchor="middle" font-size="12" font-weight="600" fill="#202124">PENDING_REVIEW</text>
+  <text x="1070" y="392" text-anchor="middle" font-size="12" fill="#5f6368">before anything is final</text>
+
+  <!-- Response Packet -->
+  <rect x="1188" y="280" width="188" height="130" rx="10" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+  <text x="1282" y="318" text-anchor="middle" font-size="16" font-weight="700" fill="#1a73e8">Response Packet</text>
+  <text x="1282" y="344" text-anchor="middle" font-size="12" fill="#5f6368">legal basis · citations</text>
+  <text x="1282" y="364" text-anchor="middle" font-size="12" fill="#5f6368">populated annexure</text>
+  <text x="1282" y="384" text-anchor="middle" font-size="12" fill="#5f6368">deadline flag</text>
+  <text x="1282" y="404" text-anchor="middle" font-size="12" font-weight="600" fill="#202124">filing-ready</text>
+
+  <!-- Arrows: pipeline flow -->
+  <line x1="200" y1="340" x2="252" y2="340" stroke="#5f6368" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="466" y1="345" x2="488" y2="345" stroke="#5f6368" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="700" y1="345" x2="722" y2="345" stroke="#5f6368" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="934" y1="345" x2="982" y2="345" stroke="#5f6368" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1156" y1="345" x2="1186" y2="345" stroke="#5f6368" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Arrows: tool attachments (request/response) -->
+  <line x1="595" y1="442" x2="595" y2="598" stroke="#34a853" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrow)"/>
+  <line x1="829" y1="442" x2="829" y2="598" stroke="#f9ab00" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrow)"/>
+
+  <!-- Footer -->
+  <text x="700" y="746" text-anchor="middle" font-size="14" fill="#5f6368">Deployed on Vertex AI Agent Engine · Gemini routed through Vertex AI (no AI Studio) · compute region us-central1 · search datastore global</text>
+</svg>

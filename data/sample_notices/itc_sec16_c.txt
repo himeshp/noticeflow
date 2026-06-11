@@ -1,0 +1,26 @@
+FORM GST DRC-01C
+[See rule 88D]
+Intimation of difference in input tax credit — Part A
+
+Reference No: ZC2906240008456        Date: 19/06/2024
+DIN: 20240619LMNO8456
+
+To,
+M/s Demo Distributors LLP
+GSTIN: 29LMNOP9012H3Z4
+56, 2nd Main, Industrial Suburb, Bengaluru, Karnataka - 560022
+
+Tax Period: April 2024 (04/2024)
+Provision: Section 16 of the CGST Act, 2017 read with Rule 88D
+
+Sir/Madam,
+
+The input tax credit availed in FORM GSTR-3B for the above period has been found to exceed
+the credit available in the auto-generated FORM GSTR-2B beyond the limit specified under
+Rule 88D. As per Section 16, credit may be availed only subject to the conditions
+prescribed.
+
+You are required to pay the differential amount with interest via FORM GST DRC-03 or submit
+a reply in Part B of FORM GST DRC-01C within seven days.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

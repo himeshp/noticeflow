@@ -1,0 +1,26 @@
+FORM GST DRC-01
+[See rule 142(1)(a)]
+Summary of Show Cause Notice
+
+Reference No: ZD1502240003777        Date: 15/02/2024
+DIN: 20240215GHIJ3777
+
+To,
+The Proprietor
+[Taxpayer name and GSTIN not legible in the scanned copy]
+Industrial Area, Ludhiana, Punjab
+
+Tax Period: FY 2023-24
+Section under which issued: Section 73 of the CGST Act, 2017
+
+Sir/Madam,
+
+It is noticed that tax has been short paid on account of input tax credit availed in excess
+of that admissible, for reasons not involving fraud or wilful misstatement. You are required
+to show cause under Section 73 why the short-paid tax, together with interest under Section
+50, should not be recovered.
+
+A reply may be filed within thirty days of receipt of this notice.
+
+(This is a synthetic notice generated for testing — not a real GST communication; the GSTIN
+is intentionally omitted to test extraction robustness.)

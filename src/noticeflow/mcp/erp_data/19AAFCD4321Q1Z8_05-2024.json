@@ -1,0 +1,10 @@
+{
+  "gstin": "19AAFCD4321Q1Z8",
+  "tax_period": "05/2024",
+  "gstr3b_tax_paid": 185000.0,
+  "gstr2b_itc_available": 72000.0,
+  "gstr3b_itc_claimed": 128000.0,
+  "itc_mismatch_amount": 56000.0,
+  "output_tax_liability": 300000.0,
+  "notes": "ITC availed in GSTR-3B exceeds GSTR-2B due to supplier's late GSTR-1 filing. Synthetic test data."
+}

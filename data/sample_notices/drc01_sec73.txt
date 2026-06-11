@@ -1,0 +1,41 @@
+FORM GST DRC-01
+[See rule 142(1)(a)]
+Summary of Show Cause Notice
+
+Reference No: ZD2403240001234        Date: {{ISSUE_DATE}}
+DIN: 20240312ABCD1234
+
+To,
+M/s Sample Traders Private Limited
+GSTIN: 24ABCDE1234F1Z5
+Plot 14, GIDC Industrial Estate, Vapi, Gujarat - 396195
+
+Tax Period: FY 2023-24 (April 2023 to March 2024)
+Section / Sub-section under which SCN issued: Section 73 of the CGST Act, 2017
+
+Sir/Madam,
+
+It has been observed on scrutiny of your returns furnished in FORM GSTR-3B and the
+auto-populated details in FORM GSTR-2B for the above tax period that input tax credit
+(ITC) amounting to Rs. 85,000/- appears to have been availed in excess of the credit
+available as per FORM GSTR-2B. The said excess availment of ITC has resulted in short
+payment of tax to that extent.
+
+It therefore appears that tax has not been paid / short paid to the extent of the amount
+detailed below, for which you are required to show cause as to why the said amount,
+along with applicable interest under Section 50 and penalty, should not be demanded and
+recovered from you under the provisions of Section 73 of the CGST Act, 2017.
+
+Details of demand:
+  Tax (CGST + SGST):    Rs. 85,000/-
+  Interest (Sec 50):    Rs. 12,400/- (computed up to date of notice)
+  Penalty:              Rs.  8,500/-
+  Total:                Rs. 1,05,900/-
+
+You are hereby directed to furnish a reply to this notice in FORM GST DRC-06 within
+30 (thirty) days from the date of receipt of this notice, i.e. on or before {{DEADLINE}}.
+If no reply is received within the stipulated time, the case will be decided ex-parte on
+the basis of records available.
+
+Proper Officer
+State Tax Officer, Ward 4, Vapi

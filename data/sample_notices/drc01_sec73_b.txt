@@ -1,0 +1,27 @@
+FORM GST DRC-01
+[See rule 142(1)(a)]
+Summary of Show Cause Notice
+
+Reference No: ZD2401240003120        Date: 14/01/2024
+DIN: 20240114ABCD3120
+
+To,
+M/s Ace Components Pvt Ltd
+GSTIN: 24ABCDE1234F1Z5
+Plot 22, GIDC Estate, Vadodara, Gujarat - 390010
+
+Tax Period: FY 2023-24
+Section under which issued: Section 73 of the CGST Act, 2017 read with Rule 142(1)(a)
+
+Sir/Madam,
+
+On scrutiny of your returns it is observed that there has been a short payment of tax to
+the extent of Rs. 85,000 on account of input tax credit availed in FORM GSTR-3B in excess
+of that reflected in FORM GSTR-2B for the said period. The said short payment appears to be
+for reasons other than fraud or wilful misstatement.
+
+You are hereby required to show cause why the tax of Rs. 85,000 together with interest under
+Section 50 should not be recovered under Section 73 of the Act. You may furnish your reply
+within thirty days from the date of service of this notice.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

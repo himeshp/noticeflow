@@ -1,0 +1,26 @@
+FORM GST DRC-01C
+[See rule 88D]
+Intimation of difference in input tax credit — Part A
+
+Reference No: ZC2403240008999        Date: 27/03/2024
+DIN: 20240327ABCD8999
+
+To,
+M/s Ace Components Pvt Ltd
+GSTIN: 24ABCDE1234F1Z5
+Plot 22, GIDC Estate, Vadodara, Gujarat - 390010
+
+Tax Period: FY 2023-24
+Provision: Section 16 of the CGST Act, 2017 read with Rule 88D
+
+Sir/Madam,
+
+A difference has been noticed between the input tax credit availed by you in FORM GSTR-3B
+and the credit available in FORM GSTR-2B for the period referred above. Under Section 16 of
+the CGST Act, 2017, ITC is admissible only where the prescribed conditions are met.
+
+You are advised to either remit the excess credit along with interest through FORM GST
+DRC-03, or explain the difference in Part B of FORM GST DRC-01C, within the time allowed
+under Rule 88D.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

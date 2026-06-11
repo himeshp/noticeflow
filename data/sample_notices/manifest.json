@@ -1,0 +1,20 @@
+{
+  "_comment": "Ground-truth labels for the eval harness (scripts/eval.py). All notices are synthetic; the CBIC law corpus is real.",
+  "notices": [
+    {"file": "drc01_sec73.txt", "expected_type": "DRC_01", "expected_gstin": "24ABCDE1234F1Z5", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "drc01_sec74_fraud.txt", "expected_type": "DRC_01", "expected_gstin": "33AABCT1234N1Z7", "expected_period": "FY2022-23", "expects_known": true},
+    {"file": "drc01_sec73_b.txt", "expected_type": "DRC_01", "expected_gstin": "24ABCDE1234F1Z5", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "drc01_sec73_c.txt", "expected_type": "DRC_01", "expected_gstin": "27PQRSX5678G2Z9", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "asmt10_sec61.txt", "expected_type": "ASMT_10", "expected_gstin": "27PQRSX5678G2Z9", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "asmt10_sec61_b.txt", "expected_type": "ASMT_10", "expected_gstin": "06AAACG5678P1Z2", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "asmt10_sec61_c.txt", "expected_type": "ASMT_10", "expected_gstin": "27PQRSX5678G2Z9", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "asmt10_sec61_d.txt", "expected_type": "ASMT_10", "expected_gstin": "29LMNOP9012H3Z4", "expected_period": "04/2024", "expects_known": true},
+    {"file": "itc_mismatch_sec16.txt", "expected_type": "ITC_MISMATCH", "expected_gstin": "29LMNOP9012H3Z4", "expected_period": "04/2024", "expects_known": true},
+    {"file": "itc_sec16_b.txt", "expected_type": "ITC_MISMATCH", "expected_gstin": "19AAFCD4321Q1Z8", "expected_period": "05/2024", "expects_known": true},
+    {"file": "itc_sec16_c.txt", "expected_type": "ITC_MISMATCH", "expected_gstin": "29LMNOP9012H3Z4", "expected_period": "04/2024", "expects_known": true},
+    {"file": "itc_sec16_d.txt", "expected_type": "ITC_MISMATCH", "expected_gstin": "24ABCDE1234F1Z5", "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "drc01_sec73_missing_gstin.txt", "expected_type": "DRC_01", "expected_gstin": null, "expected_period": "FY2023-24", "expects_known": true},
+    {"file": "unknown_reg17.txt", "expected_type": "UNKNOWN", "expected_gstin": null, "expected_period": null, "expects_known": false},
+    {"file": "unknown_rfd08.txt", "expected_type": "UNKNOWN", "expected_gstin": null, "expected_period": null, "expects_known": false}
+  ]
+}

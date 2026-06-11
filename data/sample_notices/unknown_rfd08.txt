@@ -1,0 +1,25 @@
+FORM GST RFD-08
+[See rule 92(3)]
+Notice for Rejection of Application for Refund
+
+Reference No: ZF1010240005566        Date: 03/10/2024
+DIN: 20241003STUV5566
+
+To,
+M/s Coastal Exports
+GSTIN: 32AAECC7788T1Z5
+5, Marine Drive, Kochi, Kerala - 682001
+
+Section under which issued: Section 54 of the CGST Act, 2017 read with Rule 92
+
+Sir/Madam,
+
+With reference to your refund application (ARN AA320924012345X) for refund of unutilised
+input tax credit on account of zero-rated supplies, the application is proposed to be
+rejected for the reason that the supporting documents (shipping bills and BRC/FIRC) are
+incomplete.
+
+You are hereby called upon to furnish a reply in FORM GST RFD-09 within fifteen days as to
+why the refund claimed should not be rejected.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

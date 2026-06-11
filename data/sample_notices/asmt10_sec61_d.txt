@@ -1,0 +1,26 @@
+FORM GST ASMT-10
+[See rule 99(1)]
+Notice for intimating discrepancies in the return after scrutiny
+
+Reference No: ZA2905240006301        Date: 16/05/2024
+DIN: 20240516LMNO6301
+
+To,
+M/s Demo Distributors LLP
+GSTIN: 29LMNOP9012H3Z4
+56, 2nd Main, Industrial Suburb, Bengaluru, Karnataka - 560022
+
+Tax Period: April 2024 (04/2024)
+Section under which issued: Section 61 of the CGST Act, 2017 read with Rule 99
+
+Sir/Madam,
+
+During scrutiny of the return filed for the above period, a discrepancy has been noticed in
+the reconciliation of input tax credit and outward supplies as reported across FORM GSTR-1,
+GSTR-2B and GSTR-3B.
+
+You are requested to furnish your explanation in FORM GST ASMT-11 within thirty days of
+service of this notice. In the absence of a satisfactory reply, action under the relevant
+provisions of the CGST Act, 2017 will be initiated.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

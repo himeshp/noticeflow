@@ -1,0 +1,31 @@
+FORM GST DRC-01
+[See rule 142(1)(a)]
+Summary of Show Cause Notice
+
+Reference No: ZD3312240007781        Date: 02/12/2024
+DIN: 20241202MNOP7781
+
+To,
+M/s Tiruppur Knitwear Traders
+GSTIN: 33AABCT1234N1Z7
+14, Kumaran Road, Tiruppur, Tamil Nadu - 641601
+
+Tax Period: FY 2022-23
+Provision invoked: Section 74 of the CGST Act, 2017 read with Rule 142(1)(a)
+
+Sir/Madam,
+
+It has come to the notice of the undersigned that input tax credit amounting to
+Rs. 3,60,000 has been availed and utilised by you in FORM GSTR-3B on the strength of
+invoices issued by suppliers found to be non-existent, in contravention of Section 16.
+This appears to be a wilful availment of ineligible credit with intent to evade tax,
+attracting the provisions of Section 74.
+
+You are hereby called upon to show cause why the said amount of Rs. 3,60,000 along with
+interest under Section 50 and penalty equal to the tax under Section 74 should not be
+demanded and recovered from you.
+
+A reply must be furnished within thirty days of receipt of this notice, failing which the
+matter will be decided ex parte on the basis of records available.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

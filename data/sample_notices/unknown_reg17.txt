@@ -1,0 +1,24 @@
+FORM GST REG-17
+[See rule 22(1)]
+Show Cause Notice for Cancellation of Registration
+
+Reference No: ZR2911240002233        Date: 05/11/2024
+DIN: 20241105WXYZ2233
+
+To,
+M/s Northern Traders
+GSTIN: 07AAGCN3344R1Z9
+221, Karol Bagh, New Delhi - 110005
+
+Section under which issued: Section 29 of the CGST Act, 2017 read with Rule 22
+
+Sir/Madam,
+
+Whereas it has been observed that you have not furnished returns for a continuous period of
+six months, you are hereby called upon to show cause why your registration under the CGST
+Act, 2017 should not be cancelled.
+
+You are directed to furnish a reply in FORM GST REG-18 within seven working days. If no reply
+is received, the registration shall be cancelled without further notice.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

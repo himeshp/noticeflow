@@ -1,0 +1,14 @@
+{
+  "gstin": "27PQRSX5678G2Z9",
+  "tax_period": "FY2023-24",
+  "recon_type": "TURNOVER",
+  "gstr1_outward_tax": 954000.0,
+  "gstr3b_outward_tax": 952000.0,
+  "outward_tax_difference": 2000.0,
+  "gstr3b_tax_paid": 952000.0,
+  "gstr2b_itc_available": 0.0,
+  "gstr3b_itc_claimed": 0.0,
+  "itc_mismatch_amount": 0.0,
+  "output_tax_liability": 954000.0,
+  "notes": "Outward tax declared in GSTR-1 exceeds GSTR-3B (Table 3.1) by Rs. 2,000 - timing of an amended invoice; not an ITC issue. Synthetic test data."
+}

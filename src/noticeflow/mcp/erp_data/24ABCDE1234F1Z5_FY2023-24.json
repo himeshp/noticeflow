@@ -1,0 +1,10 @@
+{
+  "gstin": "24ABCDE1234F1Z5",
+  "tax_period": "FY2023-24",
+  "gstr3b_tax_paid": 1450000.0,
+  "gstr2b_itc_available": 820000.0,
+  "gstr3b_itc_claimed": 905000.0,
+  "itc_mismatch_amount": 85000.0,
+  "output_tax_liability": 2355000.0,
+  "notes": "Short payment of tax alleged; taxpayer contends ITC was validly availed and supplier subsequently filed GSTR-1."
+}

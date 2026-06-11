@@ -1,0 +1,10 @@
+{
+  "gstin": "29LMNOP9012H3Z4",
+  "tax_period": "04/2024",
+  "gstr3b_tax_paid": 210000.0,
+  "gstr2b_itc_available": 95000.0,
+  "gstr3b_itc_claimed": 140000.0,
+  "itc_mismatch_amount": 45000.0,
+  "output_tax_liability": 350000.0,
+  "notes": "ITC claimed exceeds 2B due to supplier's late GSTR-1 filing; recoverable in subsequent period."
+}

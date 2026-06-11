@@ -1,0 +1,38 @@
+FORM GST ASMT-10
+[See rule 99(1)]
+Notice for intimating discrepancies in the return after scrutiny
+
+Reference No: ZA2706240005678        Date: {{ISSUE_DATE}}
+DIN: 20240618EFGH5678
+
+To,
+M/s Example Enterprises
+GSTIN: 27PQRSX5678G2Z9
+402, Trade Centre, Andheri East, Mumbai, Maharashtra - 400069
+
+Tax Period: FY 2023-24
+Section under which issued: Section 61 of the CGST Act, 2017 read with Rule 99
+
+Sir/Madam,
+
+This is to inform you that during scrutiny of the returns filed by you for the tax period
+referred above, the following discrepancies have been noticed:
+
+1. The outward taxable supplies declared in FORM GSTR-3B (Table 3.1) appear to be at
+   variance with the supplies declared in FORM GSTR-1 for the corresponding period. A
+   difference of approximately Rs. 2,000/- in tax has been observed.
+
+2. The said difference requires explanation as to whether it arises from timing of
+   reporting, amendments, or any short declaration of tax liability.
+
+You are requested to explain the reasons for the aforesaid discrepancies within 30 days
+of service of this notice, i.e. by {{DEADLINE}}. Your explanation may be furnished in FORM
+GST ASMT-11. Where the explanation is found acceptable, you will be informed in FORM
+GST ASMT-12 and no further action will be taken in this regard.
+
+In case no satisfactory explanation is furnished within the stipulated period, or where
+you fail to take corrective measures after accepting the discrepancies, appropriate action
+under Section 65, 66, 67, 73 or 74 of the Act, as the case may be, may be initiated.
+
+Proper Officer
+State Tax Officer, Andheri Range, Mumbai

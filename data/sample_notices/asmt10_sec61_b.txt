@@ -1,0 +1,27 @@
+FORM GST ASMT-10
+[See rule 99(1)]
+Notice for intimating discrepancies in the return after scrutiny
+
+Reference No: ZA0609240006012        Date: 11/09/2024
+DIN: 20240911EFGH6012
+
+To,
+M/s Capital Goods Agencies
+GSTIN: 06AAACG5678P1Z2
+8, Sector 17, Faridabad, Haryana - 121002
+
+Tax Period: FY 2023-24
+Section under which issued: Section 61 of the CGST Act, 2017 read with Rule 99
+
+Sir/Madam,
+
+During scrutiny of the returns furnished by you for the period mentioned above, the
+following discrepancy has been noticed: the outward taxable supplies declared in FORM
+GSTR-1 differ from the tax paid in FORM GSTR-3B by Rs. 8,500.
+
+You are requested to explain the above discrepancy and, if the explanation is not found
+acceptable, to pay the amount along with applicable interest. The explanation in FORM GST
+ASMT-11 must be furnished within thirty days of receipt of this notice, failing which
+proceedings may be initiated under Section 73 or 74, or Section 65/66/67 as applicable.
+
+(This is a synthetic notice generated for testing — not a real GST communication.)

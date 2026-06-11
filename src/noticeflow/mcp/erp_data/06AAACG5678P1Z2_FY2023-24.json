@@ -1,0 +1,10 @@
+{
+  "gstin": "06AAACG5678P1Z2",
+  "tax_period": "FY2023-24",
+  "gstr3b_tax_paid": 520000.0,
+  "gstr2b_itc_available": 410000.0,
+  "gstr3b_itc_claimed": 418500.0,
+  "itc_mismatch_amount": 8500.0,
+  "output_tax_liability": 812000.0,
+  "notes": "Minor GSTR-1 vs GSTR-3B turnover variance; explainable by timing. Synthetic test data."
+}

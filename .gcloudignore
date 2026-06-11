@@ -1,0 +1,25 @@
+# Controls what `gcloud run deploy --source` UPLOADS as the build context.
+# When present, gcloud uses THIS instead of .gitignore — important because
+# frontend/dist is gitignored but the Dockerfile needs it. dist is NOT excluded.
+.git
+.gitignore
+.env
+.env.*
+.venv
+venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.ruff_cache
+.mypy_cache
+node_modules
+frontend/node_modules
+frontend/src
+frontend/public
+corpus
+tests
+docs
+scripts
+.claude
+*.md
+# frontend/dist is intentionally uploaded (Dockerfile COPYs it).

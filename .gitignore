@@ -1,0 +1,38 @@
+# ── Secrets (never commit) ────────────────────────────────────────────
+.env
+*.key
+*.pem
+service_account*.json
+credentials.json
+
+# ── Python ────────────────────────────────────────────────────────────
+.venv/
+.venv312/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.whl
+.pytest_cache/
+*.egg
+
+# ── Corpus (large PDFs — download separately via build_datastore.py) ──
+corpus/
+
+# ── Frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ── ADK / GCP ─────────────────────────────────────────────────────────
+.adk/
+
+# ── Local scratch (not for the public repo) ───────────────────────────
+demo-script.md

@@ -1,0 +1,43 @@
+{
+  "capabilities": {
+    "streaming": true
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json"
+  ],
+  "description": "Autonomous multi-agent system (Google ADK on Vertex AI) that turns an Indian GST notice into a filing-ready, legally grounded response packet with a human approval gate.",
+  "name": "NoticeFlow",
+  "preferredTransport": "JSONRPC",
+  "protocolVersion": "0.3.0",
+  "skills": [
+    {
+      "description": "Ingest an Indian GST notice (ASMT-10 scrutiny, DRC-01 demand, or ITC-mismatch / DRC-01C) and return a filing-ready response packet: classified, grounded in real CBIC GST law with code-verified citations, with a reconciliation annexure and a deadline flag. A human approves before anything is filed.",
+      "examples": [
+        "Reply to this ASMT-10 scrutiny notice under Section 61.",
+        "Draft a response to a DRC-01 demand for FY2023-24.",
+        "Resolve an ITC mismatch (GSTR-3B vs GSTR-2B) intimation."
+      ],
+      "id": "gst-notice-response",
+      "inputModes": [
+        "text/plain"
+      ],
+      "name": "GST Notice Response",
+      "outputModes": [
+        "application/json"
+      ],
+      "tags": [
+        "tax",
+        "gst",
+        "india",
+        "compliance",
+        "legal",
+        "multi-agent"
+      ]
+    }
+  ],
+  "url": "http://localhost:8001/",
+  "version": "0.1.0"
+}

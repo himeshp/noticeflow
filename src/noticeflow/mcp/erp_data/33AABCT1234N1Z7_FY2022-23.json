@@ -1,0 +1,10 @@
+{
+  "gstin": "33AABCT1234N1Z7",
+  "tax_period": "FY2022-23",
+  "gstr3b_tax_paid": 2800000.0,
+  "gstr2b_itc_available": 1200000.0,
+  "gstr3b_itc_claimed": 1560000.0,
+  "itc_mismatch_amount": 360000.0,
+  "output_tax_liability": 4360000.0,
+  "notes": "ITC claimed far exceeds GSTR-2B; department alleges fraudulent availment (Sec. 74). Synthetic test data."
+}
